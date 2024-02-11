@@ -3,10 +3,10 @@ h1,h2,h3,h4,h5,h6,p{
 }
  
 html{
-    background-color:lightblue;
+    background-color:rgb(45, 163, 74);
 }
 body{
-    background-color:white;
+    background-color:rgb(85,107,47);
     width:80%;
     margin:0 auto;
     padding:0px 30px;
@@ -22,17 +22,17 @@ header, nav{
 }
  
 header{
-    font-family: 'Faster One', cursive;
+    font-family: "Play", sans-serif;
     padding-top:50px;
     padding-bottom:50px;
     font-size:36pt;
-    border-bottom:1px solid gray;
+    border-bottom:1px solid rgb(128,128,0);
 }
 nav {
     padding-top:30px;
     padding-bottom:30px;
     font-family: 'Montserrat', sans-serif;
-    border-bottom:1px solid gray;
+    border-bottom:1px solid rgb(128,128,0);
     display: flex;
     justify-content: space-evenly;
 
@@ -60,20 +60,18 @@ nav a:hover{
 section{
     padding: 50px 0px;
     font-family: 'Montserrat', sans-serif;
-    border-bottom:1px solid gray;
+    border-bottom:1px solid rgb(128,128,0);
     font-size: 1.5em;
     display: flex;
     justify-content:space-between;
 }
 
 
-.column{
 
-}
 .col-1{
   width:20%;
   padding:10px;
-  background-color: gray;
+  background-color: rgb(128,128,0);
 
   
 }
